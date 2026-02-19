@@ -1,6 +1,6 @@
 [project]
-name = "rrtftree"
-version = "1.0.1"
+name = "rtftree"
+version = "1.0.2"
 description = "Terraform Project Tree Generator CLI Tool"
 authors = [
     { name = "Ritesh Sharma" }
