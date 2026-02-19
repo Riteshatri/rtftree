@@ -1,0 +1,23 @@
+[project]
+name = "rrtftree"
+version = "1.0.1"
+description = "Terraform Project Tree Generator CLI Tool"
+authors = [
+    { name = "Ritesh Sharma" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+dependencies = [
+    "rich>=13.0.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/riteshatri/rtftree"
+
+[project.scripts]
+rtftree = "rtftree.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

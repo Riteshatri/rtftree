@@ -1,0 +1,11 @@
+# Terraform defaults
+.terraform
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+
+# Git
+.git
+
+# binaries
+*.exe
